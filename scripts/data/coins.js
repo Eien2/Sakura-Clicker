@@ -2,7 +2,7 @@ import { saveToStorage } from "./save.js";
 import { upgrades } from "./upgrade.js";
 
 export const defaultCurrency = {
-  sakuraCoin: 1000,
+  sakuraCoin: 0,
   multiplier: 1,
   sakuraCoinPerClick: 1,
 };
