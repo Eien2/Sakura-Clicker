@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+    /*Text*/
+    --light-text: #F4F4F4;
+    --dark-text: #2F2F2F;
+    /* Confirm and Reject */
+    --green: #3DFF23;
+    --red: #FF1B1E;
+
+    /* Sidebar and header */
+    --dark-bg: #2F2F2F;
+    --light-bg: #F4F4F4;
+    --header-links: #B788B4;
+    --upgrade-bg-info: #B788B4;
+    --upgrade-border: var(--upgrade-bg-info);
+    --upgrade-bg: #F8B5F5;
+
+    /* Main */
+    --sky-bg: #5FA0BD;
+}

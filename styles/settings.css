@@ -1,0 +1,109 @@
+@import "./colors.css";
+
+/* Settings Modal */
+
+.settings-wrapper {
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 45%;
+  height: 100%;
+}
+
+.settings-modal {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+/* Modal Header */
+
+.settings-modal .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--light-text);
+  margin-bottom: 50px;
+}
+
+.settings-modal .modal-header .modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.settings-modal .modal-header .close-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.settings-modal .modal-header .close-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Modal Body */
+
+.settings-modal .modal-body {
+  color: var(--light-text);
+  position: relative;
+}
+
+.settings-modal .modal-body .check-container {
+  margin-bottom: 10px;
+}
+
+.settings-modal .modal-body .check-container:last-of-type {
+  margin-bottom: 32px;
+}
+
+/* Confirmation Menu */ 
+.settings-modal .modal-body .reset-confirmation {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background: var(--light-bg);
+  color: var(--dark-text);
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.settings-modal .modal-body .reset-confirmation .no-btn,
+.settings-modal .modal-body .reset-confirmation .yes-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin-top: 14px;
+  margin-right: 12px;
+}
+.settings-modal .modal-body .reset-confirmation .yes-btn {
+  color: var(--green);
+  background-color: #1a4c22;
+}
+
+.settings-modal .modal-body .reset-confirmation .no-btn {
+  color: var(--red);
+  background-color: #4c1a1a;
+}
+
+/* TODO styles for check-containers */

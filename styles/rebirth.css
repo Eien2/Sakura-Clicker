@@ -1,0 +1,77 @@
+@import "./colors.css";
+
+/* Rebirth Modal */
+.rebirth-modal {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 45%;
+  background-color: black;
+  color: var(--light-text);
+  padding: 14px 28px;
+}
+
+/* Rebirth Benefits */
+.rebirth-modal .benefits {
+  margin-bottom: 50px;
+}
+
+.rebirth-modal .benefits .benefits-title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 2rem;
+}
+
+.rebirth-modal .benefits .rebirth-cost {
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.rebirth-modal .benefits .rebirth-gain {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.rebirth-modal .benefits .rebirth-lose {
+  font-weight: 700;
+}
+
+/* Rebirth Confirmation */
+.rebirth-modal .modal-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.rebirth-modal .rebirth-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.rebirth-modal .rebirth-yes,
+.rebirth-modal .rebirth-no {
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 4px 8px; 
+  width: 50%;
+}
+
+.rebirth-modal .rebirth-yes {
+  color: var(--green);
+  background-color: #1a4c22;
+}
+
+.rebirth-modal .rebirth-no {
+  color: var(--red);
+  background-color: #4c1a1a;
+  margin-left: 40px;
+}

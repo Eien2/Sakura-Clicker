@@ -1,0 +1,121 @@
+@import "colors.css";
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--dark-bg);
+  max-width: 360px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  padding: 16px 12px;
+}
+
+/* General Info */
+.sidebar .general-info {
+  color: var(--light-text);
+  padding-bottom: 26px;
+  border-bottom: 2px solid var(--light-text);
+}
+
+.sidebar .general-info div {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.sidebar .general-info div img {
+  margin-left: 8px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.sidebar .general-info .coin-container {
+  margin-top: 0;
+}
+
+/* Buy Multipliers */
+.sidebar .buy-multipliers {
+  padding-top: 26px;
+}
+
+.sidebar .buy-multipliers .buy-switch {
+  display: none;
+}
+
+.sidebar .buy-multipliers .label-switch:first-of-type {
+  margin-left: 0;
+}
+
+.sidebar .buy-multipliers .label-switch {
+  cursor: pointer;
+  color: rgba(250, 250, 250, 0.5);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 12px;
+}
+
+.sidebar .buy-multipliers #switch-1:checked ~ .label-switch-1,
+.sidebar .buy-multipliers #switch-10:checked ~ .label-switch-10,
+.sidebar .buy-multipliers #switch-100:checked ~ .label-switch-100 {
+  color: rgba(250, 250, 250, 1.0);
+}
+
+/* Upgrades Container */
+.sidebar .upgrades-container {
+  padding-top: 26px;
+  color: var(--light-text);
+}
+
+.sidebar .upgrades-container .upgrade {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: var(--upgrade-bg);
+  border: 3px solid var(--upgrade-border);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.sidebar .upgrades-container .upgrade .upgrade-icon-container {
+  margin-right: 30px;
+  width: 80px !important;
+  height: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar .upgrades-container .upgrade .upgrade-info {
+  width: 100%;
+}
+
+.sidebar .upgrades-container .upgrade .upgrade-info .buy-btn {
+  margin-bottom: 8px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  background-color: var(--upgrade-bg-info);
+  color: var(--light-text);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 6px;
+  width: 100%;
+}
+
+.sidebar .upgrades-container .upgrade .upgrade-info .buy-btn .upgrade-cost {
+  color: var(--red);
+}
+
+.sidebar .upgrades-container .upgrade .upgrade-info .stats-container {
+  background-color: var(--upgrade-bg-info);
+  padding: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+}
