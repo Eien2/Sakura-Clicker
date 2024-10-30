@@ -7,8 +7,7 @@ Sakura Clicker is a project / game that looks like normal clicker, nothing speci
 
 ## To access this game click link below
 
-TODO: Paste here link to the website
-
+https://eien2.github.io/Sakura-Clicker/
 
 ## If you want to change anything in my project go with steps:
 
