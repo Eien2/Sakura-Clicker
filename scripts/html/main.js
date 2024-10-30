@@ -1,5 +1,5 @@
-import { getFromStorage } from "./data/save.js";
-import { options } from "./data/settings.js";
+import { getFromStorage } from "../data/save.js";
+import { options } from "../data/settings.js";
 
 export function renderDetailedMain() {
   const main = document.querySelector(".main");

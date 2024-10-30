@@ -1,10 +1,10 @@
-import { currency } from "./data/coins.js";
-import { getFromStorage, saveToStorage } from "./data/save.js";
-import { globalVolumes } from "./data/sounds.js";
-import { renderHeader } from "./html/header.js";
-import { whichMain } from "./html/main.js";
-import { whichGeneralInfo } from "./html/renderGeneralInfo.js";
-import { whichUpgrade } from "./html/renderUpgrade.js";
+import { currency } from "../data/coins.js";
+import { getFromStorage, saveToStorage } from "../data/save.js";
+import { globalVolumes } from "../data/sounds.js";
+import { renderHeader } from "../html/header.js";
+import { whichMain } from "../html/main.js";
+import { whichGeneralInfo } from "../html/renderGeneralInfo.js";
+import { whichUpgrade } from "../html/renderUpgrade.js";
 import { rebirthBtn } from "./rebirth.js";
 import { showSettings } from "./settings.js";
 import { validColors } from "./validCostColors.js";

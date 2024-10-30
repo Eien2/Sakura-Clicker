@@ -1,9 +1,9 @@
-import { currency, updateScpc } from "./data/coins.js";
-import { getFromStorage, saveToStorage } from "./data/save.js";
-import { globalVolumes } from "./data/sounds.js";
-import { upgrades } from "./data/upgrade.js";
-import { whichGeneralInfo } from "./html/renderGeneralInfo.js";
-import { whichUpgrade } from "./html/renderUpgrade.js";
+import { currency, updateScpc } from "../data/coins.js";
+import { getFromStorage, saveToStorage } from "../data/save.js";
+import { globalVolumes } from "../data/sounds.js";
+import { upgrades } from "../data/upgrade.js";
+import { whichGeneralInfo } from "../html/renderGeneralInfo.js";
+import { whichUpgrade } from "../html/renderUpgrade.js";
 import { renderSakuraTitle } from "./sakura.js";
 import { validColors } from "./validCostColors.js";
 
