@@ -11,7 +11,7 @@ export function renderDefaultGeneralInfo() {
           ${numeral(currency.sakuraCoin).format("0.0 a")}
         </p>
         <img 
-          src="../../images/assets/coin-icon.png"
+          src="./images/assets/coin-icon.png"
           class="sakura-coin-icon"
           alt="sakura-coin"
         />
@@ -21,7 +21,7 @@ export function renderDefaultGeneralInfo() {
         <p class="scpc">
           ${numeral(currency.sakuraCoinPerClick).format("0.0 a")}
         </p>
-        <img src="../../images/icons/scpc-icon.png" class="sakura-coin-icon" alt="sakura-coin"/>
+        <img src="./images/icons/scpc-icon.png" class="sakura-coin-icon" alt="sakura-coin"/>
       </div>
 
       <div class="multiplier-container">
@@ -42,7 +42,7 @@ export function renderShortNumGeneralInfo() {
           ${currency.sakuraCoin.toFixed(1)}
         </p>
         <img 
-          src="../../images/assets/coin-icon.png"
+          src="./images/assets/coin-icon.png"
           class="sakura-coin-icon"
           alt="sakura-coin"
         />
@@ -52,7 +52,7 @@ export function renderShortNumGeneralInfo() {
         <p class="scpc">
           ${currency.sakuraCoinPerClick.toFixed(1)}
         </p>
-        <img src="../../images/icons/scpc-icon.png" class="sakura-coin-icon" alt="sakura-coin"/>
+        <img src="./images/icons/scpc-icon.png" class="sakura-coin-icon" alt="sakura-coin"/>
       </div>
 
       <div class="multiplier-container">

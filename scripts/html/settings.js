@@ -6,7 +6,7 @@ export function renderSettings() {
           <p class="modal-title">Settings</p>
     
           <button class="close-btn settings-close-btn">
-            <img class="close-img" src="../../images/icons/close-icon.png">
+            <img class="close-img" src="./images/icons/close-icon.png">
           </button>
         </div>
 

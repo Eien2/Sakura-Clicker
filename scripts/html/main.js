@@ -8,12 +8,12 @@ export function renderDetailedMain() {
     <div class="background">
       <div class="sakura-tree-container">
         <p class="sakura-tree-btn">
-          <img src="../../images/assets/sakura-tree.png" class="sakura-tree-image" alt="sakura-tree"/>
+          <img src="./images/assets/sakura-tree.png" class="sakura-tree-image" alt="sakura-tree"/>
         </p>
       </div>
 
       <div class="grass-container">
-        <img src="../../images/assets/island.png" class="island-image" alt="island"/>
+        <img src="./images/assets/island.png" class="island-image" alt="island"/>
       </div>
     </div>
   `;
@@ -26,12 +26,12 @@ export function renderLowDetailMain() {
     <div class="background">
       <div class="sakura-tree-container">
         <p class="sakura-tree-btn">
-          <img src="../../images/assets/low-detail/sakura-tree.png" class="sakura-tree-image" alt="sakura-tree"/>
+          <img src="./images/assets/low-detail/sakura-tree.png" class="sakura-tree-image" alt="sakura-tree"/>
         </p>
       </div>
 
       <div class="grass-container">
-        <img src="../../images/assets/low-detail/island.png" class="island-image" alt="island"/>
+        <img src="./images/assets/low-detail/island.png" class="island-image" alt="island"/>
       </div>
     </div>
   `;

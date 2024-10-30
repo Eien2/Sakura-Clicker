@@ -11,7 +11,7 @@ export function renderDefaultUpgrade() {
       upgradesHTML += `
         <div class="upgrade upgrade-${upgrade.id}">
           <div class="upgrade-icon-container">
-            <img src="../../images/icons/${upgrade.image}" class="upgrade-icon" alt="upgrade-icon"/>
+            <img src="./images/icons/${upgrade.image}" class="upgrade-icon" alt="upgrade-icon"/>
           </div>
           
           <div class="upgrade-info">
@@ -46,7 +46,7 @@ export function renderShortNumUpgrade() {
       upgradesHTML += `
         <div class="upgrade upgrade-${upgrade.id}">
           <div class="upgrade-icon-container">
-            <img src="../../images/icons/${upgrade.image}" class="upgrade-icon" alt="upgrade-icon"/>
+            <img src="./images/icons/${upgrade.image}" class="upgrade-icon" alt="upgrade-icon"/>
           </div>
           
           <div class="upgrade-info">

@@ -4,7 +4,7 @@ export function renderHeader() {
   header.innerHTML = `
     <button class="rebirth-btn">
       <img 
-        src="../../images/icons/reset-icon.png" 
+        src="./images/icons/reset-icon.png" 
         class="reset-icon" 
         alt="reset-icon"
       />
@@ -18,7 +18,7 @@ export function renderHeader() {
           href="https://github.com/Eien2">
           <img 
             class="github-icon"
-            src="../../images/icons/github-icon.png"
+            src="./images/icons/github-icon.png"
             alt="github-button"
           >
         </a>
@@ -31,7 +31,7 @@ export function renderHeader() {
           href="https://www.youtube.com/channel/UCHmoZ8l-j-NWNqSnUzcld-A">
           <img 
             class="youtube-icon"
-            src="../../images/icons/youtube-icon.png"
+            src="./images/icons/youtube-icon.png"
             alt="youtube-button"
           >
         </a>
@@ -41,7 +41,7 @@ export function renderHeader() {
     <button class="settings-btn">
       <img 
         class="settings-icon"
-        src="../../images/icons/settings-icon.png"
+        src="./images/icons/settings-icon.png"
         alt="settings-button"
       >
     </button>
