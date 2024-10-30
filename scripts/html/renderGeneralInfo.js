@@ -1,6 +1,6 @@
-import { currency } from "../data/coins.js";
-import { getFromStorage } from "../data/save.js";
-import { options } from "../data/settings.js";
+import { currency } from "./data/coins.js";
+import { getFromStorage } from "./data/save.js";
+import { options } from "./data/settings.js";
 
 export function renderDefaultGeneralInfo() {
   setTimeout(() => {

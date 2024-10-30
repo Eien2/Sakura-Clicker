@@ -1,24 +1,24 @@
-import { getFromStorage, resetStorage, saveToStorage } from "../data/save.js";
-import { options } from "../data/settings.js";
+import { getFromStorage, resetStorage, saveToStorage } from "./data/save.js";
+import { options } from "./data/settings.js";
 import {
   renderLowDetailMain,
   renderDetailedMain,
   whichMain,
 } from "../html/main.js";
-import { renderSettings } from "../html/settings.js";
-import { renderSidebar } from "../html/sidebar.js";
-import { renderHeader } from "../html/header.js";
+import { renderSettings } from "./html/settings.js";
+import { renderSidebar } from "./html/sidebar.js";
+import { renderHeader } from "./html/header.js";
 import { renderSakuraTitle, resetLeafs, sakura } from "./sakura.js";
 import {
   renderDefaultGeneralInfo,
   renderShortNumGeneralInfo,
-} from "../html/renderGeneralInfo.js";
+} from "./html/renderGeneralInfo.js";
 import {
   renderDefaultUpgrade,
   renderShortNumUpgrade,
-} from "../html/renderUpgrade.js";
+} from "./html/renderUpgrade.js";
 import { rebirthBtn } from "./rebirth.js";
-import { globalVolumes } from "../data/sounds.js";
+import { globalVolumes } from "./data/sounds.js";
 import { buyMultipliers } from "./upgrades.js";
 
 /* Show Settings */
@@ -183,7 +183,7 @@ function clickSettingsSound() {
   getFromStorage();
 
   const click = new Audio();
-  click.src = "../sounds/header/click.mp3";
+  click.src = "./sounds/header/click.mp3";
   click.volume = globalVolumes.other;
   click.play();
 }

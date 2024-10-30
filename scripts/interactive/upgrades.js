@@ -1,9 +1,9 @@
-import { currency, updateScpc } from "../data/coins.js";
-import { getFromStorage, saveToStorage } from "../data/save.js";
-import { globalVolumes } from "../data/sounds.js";
-import { upgrades } from "../data/upgrade.js";
-import { whichGeneralInfo } from "../html/renderGeneralInfo.js";
-import { whichUpgrade } from "../html/renderUpgrade.js";
+import { currency, updateScpc } from "./data/coins.js";
+import { getFromStorage, saveToStorage } from "./data/save.js";
+import { globalVolumes } from "./data/sounds.js";
+import { upgrades } from "./data/upgrade.js";
+import { whichGeneralInfo } from "./html/renderGeneralInfo.js";
+import { whichUpgrade } from "./html/renderUpgrade.js";
 import { renderSakuraTitle } from "./sakura.js";
 import { validColors } from "./validCostColors.js";
 
@@ -105,7 +105,7 @@ function buyBtnSound() {
   getFromStorage();
 
   const buy = new Audio();
-  buy.src = "../../sounds/upgrades/click.mp3";
+  buy.src = "./sounds/upgrades/click.mp3";
   buy.volume = globalVolumes.other;
   buy.play();
 }
@@ -114,7 +114,7 @@ function falseBuyBtnSound() {
   getFromStorage();
 
   const wrong = new Audio();
-  wrong.src = "../../sounds/upgrades/wrong.mp3";
+  wrong.src = "./sounds/upgrades/wrong.mp3";
   wrong.volume = globalVolumes.other;
   wrong.play();
 }

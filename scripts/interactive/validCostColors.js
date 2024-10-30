@@ -1,6 +1,6 @@
-import { currency } from "../data/coins.js";
-import { rebirth } from "../data/rebirth.js";
-import { upgrades } from "../data/upgrade.js";
+import { currency } from "./data/coins.js";
+import { rebirth } from "./data/rebirth.js";
+import { upgrades } from "./data/upgrade.js";
 
 
 export function validColors() {

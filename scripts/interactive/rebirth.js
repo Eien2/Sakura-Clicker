@@ -1,11 +1,11 @@
-import { currency } from "../data/coins.js";
-import { rebirth } from "../data/rebirth.js";
-import { getFromStorage, saveToStorage } from "../data/save.js";
-import { globalVolumes } from "../data/sounds.js";
-import { upgrades } from "../data/upgrade.js";
-import { renderHeader } from "../html/header.js";
-import { whichMain } from "../html/main.js";
-import { renderSidebar } from "../html/sidebar.js";
+import { currency } from "./data/coins.js";
+import { rebirth } from "./data/rebirth.js";
+import { getFromStorage, saveToStorage } from "./data/save.js";
+import { globalVolumes } from "./data/sounds.js";
+import { upgrades } from "./data/upgrade.js";
+import { renderHeader } from "./html/header.js";
+import { whichMain } from "./html/main.js";
+import { renderSidebar } from "./html/sidebar.js";
 import { renderSakuraTitle, resetLeafs, sakura } from "./sakura.js";
 import { showSettings } from "./settings.js";
 import { buyMultipliers } from "./upgrades.js";
@@ -116,7 +116,7 @@ function rebirthYesSound() {
   getFromStorage();
 
   const yay = new Audio();
-  yay.src = "../../sounds/header/yay-sound.mp3";
+  yay.src = "./sounds/header/yay-sound.mp3";
   yay.volume = globalVolumes.yay;
   yay.play();
 }
@@ -125,7 +125,7 @@ function falseRebirthYesSound() {
   getFromStorage();
 
   const wrong = new Audio();
-  wrong.src = "../../sounds/header/wrong.mp3";
+  wrong.src = "./sounds/header/wrong.mp3";
   wrong.volume = globalVolumes.other;
   wrong.play();
 }
@@ -134,7 +134,7 @@ function clickRebirthSound() {
   getFromStorage();
 
   const click = new Audio();
-  click.src = "../sounds/header/click.mp3";
+  click.src = "./sounds/header/click.mp3";
   click.volume = globalVolumes.other;
   click.play();
 }

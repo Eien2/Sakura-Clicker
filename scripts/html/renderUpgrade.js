@@ -1,6 +1,6 @@
-import { options } from "../data/settings.js";
-import { upgrades } from "../data/upgrade.js";
-import { buyUpgrade } from "../interactive/upgrades.js";
+import { options } from "./data/settings.js";
+import { upgrades } from "./data/upgrade.js";
+import { buyUpgrade } from "./interactive/upgrades.js";
 
 export function renderDefaultUpgrade() {
   setTimeout(() => {

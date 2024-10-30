@@ -1,10 +1,10 @@
-import { currency } from "../data/coins.js";
-import { getFromStorage, saveToStorage } from "../data/save.js";
-import { globalVolumes } from "../data/sounds.js";
-import { renderHeader } from "../html/header.js";
-import { whichMain } from "../html/main.js";
-import { whichGeneralInfo } from "../html/renderGeneralInfo.js";
-import { whichUpgrade } from "../html/renderUpgrade.js";
+import { currency } from "./data/coins.js";
+import { getFromStorage, saveToStorage } from "./data/save.js";
+import { globalVolumes } from "./data/sounds.js";
+import { renderHeader } from "./html/header.js";
+import { whichMain } from "./html/main.js";
+import { whichGeneralInfo } from "./html/renderGeneralInfo.js";
+import { whichUpgrade } from "./html/renderUpgrade.js";
 import { rebirthBtn } from "./rebirth.js";
 import { showSettings } from "./settings.js";
 import { validColors } from "./validCostColors.js";
@@ -37,9 +37,9 @@ function sakuraTreeAnimation(event) {
 
   const leafImage = document.createElement("img");
   leafImage.className = "sakura-leaf";
-  leafImage.src = `../../images/assets/${randomLeaf <= 5 ? "sakura-leaf-1.png" : "sakura-leaf-2.png"}`;
+  leafImage.src = `./images/assets/${randomLeaf <= 5 ? "sakura-leaf-1.png" : "sakura-leaf-2.png"}`;
 
-  if (leafImage.src === "http://127.0.0.1:8080/images/assets/sakura-leaf-2.png") {
+  if (leafImage.src === "./images/assets/sakura-leaf-2.png") {
     leafContainer.style.left = `${mousePosX - 30}px`;
   }
 
@@ -82,7 +82,7 @@ function sakuraSound() {
   getFromStorage();
 
   const leaf = new Audio();
-  leaf.src = "../../sounds/sakura/leafs.mp3";
+  leaf.src = "./sounds/sakura/leafs.mp3";
   leaf.volume = globalVolumes.other;
   leaf.play();
 }
